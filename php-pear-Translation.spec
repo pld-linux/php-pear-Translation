@@ -5,7 +5,7 @@ Summary:	%{_pearname} - class for creating multilingual websites
 Summary(pl):	%{_pearname} - klasa do tworzenia wielojêzycznych portali
 Name:		php-pear-%{_pearname}
 Version:	1.2
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -22,6 +22,15 @@ extension. The object should be created for every page. While creation
 all the strings connected with specific page and the strings connected
 with all the pages on the site are loaded into variable, so access to
 them is quite fast and does not overload database server connection.
+
+%description -l pl
+Klasa ta pozwala na przechowywanie wszystkich ³añcuchów znaków dla
+wielojêzycznych serwisów w bazie danych i odczytywanie ich. Klasa
+³±czy siê z dowoln± baz± u¿ywaj±c rozszerzenia PHP PEAR. Obiekt mo¿e
+byæ tworzony dla ka¿dej strony. Od utworzenia wszystkie ³añcuchy
+powi±zane z dan± stron±, a tak¿e ³añcuchy powi±zane ze wszystkimi
+stronami z serwisu s± wczytywane do zmiennej, wiêc dostêp do nich
+jest szybki i nie przeci±¿a po³±czenia z serwerem baz danych.
 
 %prep
 %setup -q -c
