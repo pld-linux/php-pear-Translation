@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - class for creating multilingual websites
 Summary(pl):	%{_pearname} - klasa do tworzenia wielojêzycznych portali
 Name:		php-pear-%{_pearname}
-Version:	1.2.6
+Version:	1.2.6pl1
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	d30635cabadbb765075519ef9c2a9cf9
+# Source0-md5:	096296bfe322e4ba250f79bb885ac022
 URL:		http://pear.php.net/package/Translation/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
