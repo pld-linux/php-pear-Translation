@@ -26,7 +26,7 @@ all the strings connected with specific page and the strings connected
 with all the pages on the site are loaded into variable, so access to
 them is quite fast and does not overload database server connection.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa ta pozwala na przechowywanie wszystkich ³añcuchów znaków dla
