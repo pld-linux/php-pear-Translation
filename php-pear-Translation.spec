@@ -4,7 +4,7 @@
 %define		_pearname	%{_class}
 
 Summary:	%{_pearname} - class for creating multilingual websites
-Summary(pl.UTF-8):   %{_pearname} - klasa do tworzenia wielojęzycznych portali
+Summary(pl.UTF-8):	%{_pearname} - klasa do tworzenia wielojęzycznych portali
 Name:		php-pear-%{_pearname}
 Version:	1.2.6pl1
 Release:	4
