@@ -4,7 +4,7 @@
 %define		_pearname	%{_class}
 
 Summary:	%{_pearname} - class for creating multilingual websites
-Summary(pl):	%{_pearname} - klasa do tworzenia wielojêzycznych portali
+Summary(pl.UTF-8):   %{_pearname} - klasa do tworzenia wielojÄ™zycznych portali
 Name:		php-pear-%{_pearname}
 Version:	1.2.6pl1
 Release:	4
@@ -31,14 +31,14 @@ them is quite fast and does not overload database server connection.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa ta pozwala na przechowywanie wszystkich ³añcuchów znaków dla
-wielojêzycznych serwisów w bazie danych i odczytywanie ich. Klasa
-³±czy siê z dowoln± baz± u¿ywaj±c rozszerzenia PHP PEAR. Obiekt mo¿e
-byæ tworzony dla ka¿dej strony. Od utworzenia wszystkie ³añcuchy
-powi±zane z dan± stron±, a tak¿e ³añcuchy powi±zane ze wszystkimi
-stronami z serwisu s± wczytywane do zmiennej, wiêc dostêp do nich jest
-szybki i nie przeci±¿a po³±czenia z serwerem baz danych.
+%description -l pl.UTF-8
+Klasa ta pozwala na przechowywanie wszystkich Å‚aÅ„cuchÃ³w znakÃ³w dla
+wielojÄ™zycznych serwisÃ³w w bazie danych i odczytywanie ich. Klasa
+Å‚Ä…czy siÄ™ z dowolnÄ… bazÄ… uÅ¼ywajÄ…c rozszerzenia PHP PEAR. Obiekt moÅ¼e
+byÄ‡ tworzony dla kaÅ¼dej strony. Od utworzenia wszystkie Å‚aÅ„cuchy
+powiÄ…zane z danÄ… stronÄ…, a takÅ¼e Å‚aÅ„cuchy powiÄ…zane ze wszystkimi
+stronami z serwisu sÄ… wczytywane do zmiennej, wiÄ™c dostÄ™p do nich jest
+szybki i nie przeciÄ…Å¼a poÅ‚Ä…czenia z serwerem baz danych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
