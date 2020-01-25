@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Translation
 %define		_status		stable
 %define		_pearname	%{_class}
